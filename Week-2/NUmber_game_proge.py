@@ -5,7 +5,7 @@ print ('Well, nice to meet you ' + myName)
 print ('Do you want to play a game? (yes/no)')
 answer = input ()
 
-#Some simple interaactions with the player
+#Some simple interaactions with the player.
 
 if answer == 'yes':
     print ('Cool! I am thinking of a number between 1 and 10. Try to guess it.')
