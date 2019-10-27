@@ -6,31 +6,24 @@ with functions.
 '''
 
 
-# write a function that adds 1
-# to the input and prints the result
+# I wrote a function that adds 1 to the input and prints the result
 def inc(a):
     print(a + 1)
 
 
-# write a function that adds 1
-# to the input and returns the result
+# I wrote a function that adds 1 to the input and returns the result
 def inc_return(a):
     return a + 1
 
 
-# write a function that adds
-# the two input numbers together
-# and returns the sum
+# I wrote a function that adds the two input numbers together and returns the sum
 def sum(a, b):
     return a + b
 
 
-# write a function that takes two
-# numbers, adds them together using 
-# sum() and then increments the sum
-# using inc_return
-def sum_inc():
-    return 
+# I wrote a function that takes two numbers, adds them together using sum() and then increments the sum using inc_return.
+def sum_inc(a, b):
+    return sum(a, b) + 1
 
 
 # write a function that returns a 
