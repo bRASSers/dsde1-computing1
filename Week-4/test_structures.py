@@ -1,6 +1,5 @@
 '''
 test_structures.py
-
 Unit tests for structures functions.
 '''
 
