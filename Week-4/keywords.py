@@ -14,6 +14,15 @@ with default values.
 # it returns 'Hello and welcome to <place>'
 # if both user_name and place are provided
 # it returns 'Hello, <user_name>, and welcome to <place>
+def welcome_message(user_name = None, place = None):
+    if user_name is None and place is None:
+        return 'Hello and welcome'
+    if place is None:
+        return 'Hello ' + str(user_name) + ', and welcome'
+    if user_name is None:
+        return 'Hello adn welcome to ' + str(place)
+    else:
+        return 'Hello ' + str(user_name) + ', and welcome to ' + str(place)
 
 
 # Create a function called list_average()
@@ -27,3 +36,4 @@ with default values.
 # (return list of all modes if there is a tie between multiple values)
 # if avg_type='mean', return the mean of the list
 # if avg_type='median', return the median of this list
+
